@@ -1,0 +1,2 @@
+"./vendor/doctrine/doctrine-module/bin/doctrine-module" orm:convert-mapping --namespace="CodeGen\Entity\\" --force --from-database annotation ./module/CodeGen/src/
+"./vendor/doctrine/doctrine-module/bin/doctrine-module" orm:generate-entities ./module/CodeGen/src/ --generate-annotations=true
